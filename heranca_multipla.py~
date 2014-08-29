@@ -45,4 +45,4 @@ class Fenix(Ave, Fogo):
 f = Fenix()
 f.voar()
 f.pegar_fogo()
-print f.name
+print f._name

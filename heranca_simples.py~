@@ -16,7 +16,7 @@ class BookPDF(Book):
 	
 	def __init__(self, author, title, year, len_MB):
 #		Book.__init__(self, author, title, year)
-		super(BookPDF, self).__init__(author, title, year)
+		super(BookPDF, self).__init__(author)
 		self.len_MB = len_MB
 	
 	def list_all(self):

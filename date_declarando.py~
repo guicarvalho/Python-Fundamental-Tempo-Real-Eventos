@@ -30,8 +30,5 @@ number_of_day = datetime.now().isoweekday() # dom = 0 ... sáb = 6
 print 'Today is %s' % days_of_week[number_of_day]
 
 # formatando a saída da data
-print u'Data sem formatação: %s' % datetime.now()
-print u'Data formatada: %s' % datetime.now().strftime('%A %d de %b de %Y')
-
-
-
+print datetime.
+print datetime.now().strftime('%A %d de %b de %Y')

@@ -5,7 +5,7 @@ def entrada_saida(f):
         print "Entrando em {0}".format(f.__name__)
         f()
         print "Saindo de {0}".format(f.__name__)
-    return novo_f
+        return novo_f
 
 @entrada_saida
 def func1():
