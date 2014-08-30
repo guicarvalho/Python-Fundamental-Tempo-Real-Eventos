@@ -41,5 +41,11 @@ try:
 		except (IOError, Exception) as e:
 			print 'Erro ao iterar file: ERRO: %s' % e
 	
+	print '-'*100
+	# ler a terceira linha do 
+	with open('teste.txt', 'r') as file:
+		file.seek(18,0)
+		print file.readline()
+	
 except Exception as e:
 	print u'Erro ao abrir arquivo. ERRO: %s' % e.message
