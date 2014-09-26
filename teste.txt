@@ -1,0 +1,3 @@
+Python assim como C++ e Smaltalk possui a tanto herança simples quando herança múltipla. 
+Na herança simples, a classe extende de uma única super classe herdando todas as suas caracteristicas.
+Dizemos que a classe filha é a classe mais especifica e a classe pai ou super classe é a classe mais genérica.

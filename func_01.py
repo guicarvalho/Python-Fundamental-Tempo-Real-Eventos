@@ -8,3 +8,4 @@ def my_func(params):
 
 # chama a função
 my_func('Hello World!')
+my_func(range(10))

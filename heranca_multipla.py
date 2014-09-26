@@ -32,7 +32,6 @@ class Fenix(Ave, Fogo):
 		super(Ave, self).__init__()
 		super(Fogo, self).__init__()
 		
-		self.__name = 'My Fênix'
 		
 	def voar(self):
 		print u'Voando em chamas like a Fênix!'

@@ -13,3 +13,4 @@ baralho = zip(naipes, cartas)
 baralho.sort()
 
 print baralho
+print len(baralho)
